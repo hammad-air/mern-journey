@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIREBASE-DATA BASE</title>
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyAJv84JLvam5KOyz_eLfGrRltl70U8b3wA",
+    authDomain: "learn-firebase-6593a.firebaseapp.com",
+    databaseURL: "https://learn-firebase-6593a.firebaseio.com",
+    projectId: "learn-firebase-6593a",
+    storageBucket: "learn-firebase-6593a.appspot.com",
+    messagingSenderId: "125909294415",
+    appId: "1:125909294415:web:1a2de5d13a6630b96cb93a",
+    measurementId: "G-Q791YYBC6T"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+<div>
+    <input type="text" id="Name"> <br>
+    <input type="text" id="Age">  <br>
+    <button onclick="Submit()">SUBMIT</button><br>
+</div>
+
+
+</body>
+<script src="app.js"></script>
+</html>

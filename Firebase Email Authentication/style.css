@@ -1,0 +1,14 @@
+body{
+background: yellowgreen;
+    }
+    .email , .password{
+        width: 500px;
+        height: 60px;
+        border-radius: 40px;
+        box-sizing: border-box;
+        border: none;
+    }
+    button{
+        width: 500px;
+        height: 450px;
+    }

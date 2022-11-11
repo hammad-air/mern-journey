@@ -1,0 +1,28 @@
+/* /* .small{
+    width: 100px;
+    height: 100px;
+}
+
+.big{
+    height: 300px;
+    width: 300px;
+/*  */
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.image{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+} 
+/* 
+.bold{
+    font-weight: bold;
+}
+
+
+.blue{
+    color: blue;
+} */

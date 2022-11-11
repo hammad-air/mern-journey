@@ -1,0 +1,13 @@
+learning Git
+
+1) install git
+2)git hub.com(Making Profile)
+3) Making a repo (File)in github.com
+4) Git init (for making local folder into repo)
+5) git status ( For checking status)
+6) git add -A( for making file tarackable)(file watch it)
+7) git config --global user.name "user name in GIT"
+8)git config --global user.email "email in GIT"
+9)git commit( we work)
+9) git remote add origin  <link>
+10) git push -u origin master

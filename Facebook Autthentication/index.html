@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FACEBOOK AUTENTICATION</title>
+
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyBuXN6Oc6Uvkdk4-snD6257EeURk405K8I",
+    authDomain: "facebook-auth-ddd36.firebaseapp.com",
+    databaseURL: "https://facebook-auth-ddd36.firebaseio.com",
+    projectId: "facebook-auth-ddd36",
+    storageBucket: "facebook-auth-ddd36.appspot.com",
+    messagingSenderId: "819676359555",
+    appId: "1:819676359555:web:fc2f98005525e33017e4b6",
+    measurementId: "G-33MQG11JRQ"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</head>
+<body>
+<center>
+    <button onclick="facebook_login()" style="background-color: blue; color: white;font-weight: bolder; font-size: xx-large; border-radius: 15px; text-decoration:royalblue; text-align: center; cursor: pointer;">FACEBOOK LOGIN</button>
+</center>
+</body>
+<script src="app.js"></script>
+</html>

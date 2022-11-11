@@ -1,0 +1,18 @@
+.navbar{
+    background:linear-gradient(to left, #3333cc 0%, #ff99cc 100%);
+}
+.nav-link{
+    color: white !important;
+    font-weight: bolder;
+}
+.dropdown-item{
+
+    background: #FFCBA4;
+    cursor: context-menu;
+    font-weight: bolder;
+    color: white;
+    text-emphasis-color: red;
+}
+.dropdown-menu{
+    color: white;
+}
